@@ -5,16 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>개인정보 처리방침 · 365: 매일이 기념일</title>
 <style>
-  :root { --ink:#2B2622; --muted:#8A8078; --line:#E8E1D8; --bg:#FBF8F3; }
+  :root { --ink:#263F35; --muted:#6B766C; --line:#E0E3D8; --bg:#F7F5EF; }
   * { box-sizing: border-box; }
   body { margin:0; padding:48px 20px 80px; background:var(--bg); color:var(--ink);
          font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Apple SD Gothic Neo","Noto Sans KR",sans-serif;
          line-height:1.75; font-size:16px; }
   main { max-width:680px; margin:0 auto; }
-  h1 { font-size:26px; margin:0 0 4px; letter-spacing:-0.3px; }
+  h1 { font-size:26px; margin:0 0 4px; letter-spacing:-0.5px; }
   .app { color:var(--muted); font-size:14px; margin:0 0 6px; }
   .date { color:var(--muted); font-size:13px; margin:0 0 36px; }
-  h2 { font-size:17px; margin:40px 0 10px; letter-spacing:-0.2px; }
+  h2 { font-size:17px; margin:40px 0 10px; letter-spacing:-0.3px; }
   p, li { font-size:15px; }
   ul { padding-left:20px; }
   li { margin-bottom:6px; }
@@ -34,35 +34,44 @@
   <p class="app">365: 매일이 기념일</p>
   <p class="date">시행일: 2026년 9월 15일</p>
 
-  <p>365: 매일이 기념일(이하 "본 앱")은 이용자의 개인정보를 소중히 여깁니다. 본 방침은 본 앱이 어떤 정보를 다루는지 설명합니다.</p>
+  <p>365: 매일이 기념일(이하 "본 앱")은 이용자의 개인정보를 소중히 여깁니다. 본 방침은 본 앱이 어떤 정보를 어떻게 다루는지 설명합니다.</p>
 
   <h2>1. 수집하는 개인정보</h2>
-  <p>본 앱은 이용자의 개인정보를 수집하지 않습니다. 회원가입이나 로그인 절차가 없으며, 이름·이메일·전화번호·위치 정보 등 어떠한 개인 식별 정보도 요구하지 않습니다.</p>
+  <p>본 앱은 이용자의 개인정보를 수집하지 않습니다. 회원가입이나 로그인 절차가 없으며, 이름·이메일·전화번호·연락처·위치 정보 등 어떠한 개인 식별 정보도 요구하지 않습니다. 개발자가 운영하는 서버는 존재하지 않으며, 개발자는 이용자의 기록을 열람할 수 없습니다.</p>
 
-  <h2>2. 이용자가 입력한 정보의 저장</h2>
-  <p>이용자가 등록한 기념일 정보(제목, 날짜, 메모, 이모지 등)는 이용자의 기기에 저장됩니다. 이 정보는 개발자에게 전송되지 않으며, 개발자가 운영하는 서버는 존재하지 않습니다. 개발자는 이용자의 기록을 열람할 수 없습니다.</p>
-  <p>앱을 삭제하면 기기에 저장된 정보가 함께 삭제됩니다. 다만 아래 3항의 백업이 존재하는 경우 앱을 다시 설치할 때 복원될 수 있습니다.</p>
+  <h2>2. 이용자가 입력한 정보</h2>
+  <p>이용자가 등록한 기념일 정보(이름, 월·일, 시작 연도, 메모, 이모지)는 이용자의 기기에 저장됩니다. 이 정보는 개발자에게 전송되지 않습니다.</p>
 
-  <h2>3. 기기 백업 및 클라우드 저장</h2>
-  <p>이용자의 기기 설정에 따라 앱 데이터가 이용자 본인의 클라우드 계정에 백업될 수 있습니다. iOS에서는 Apple의 iCloud에, Android에서는 Google 계정의 백업 서비스에 저장됩니다. 이는 운영체제가 제공하는 기능으로, 데이터는 이용자 본인의 계정 안에만 보관되며 개발자는 이에 접근할 수 없습니다.</p>
-  <p>해당 데이터는 각 사업자의 개인정보 처리방침에 따라 처리됩니다(<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>). 백업을 원하지 않으시면 기기 설정에서 해당 앱의 백업을 해제할 수 있습니다.</p>
+  <h2>3. iCloud 동기화 (iOS)</h2>
+  <p>iOS에서 본 앱은 이용자가 등록한 기념일 정보를 이용자 본인의 iCloud 계정에 비공개로 보관합니다. 이를 통해 같은 Apple 계정으로 로그인한 여러 기기에서 기록이 자동으로 합쳐집니다.</p>
+  <ul>
+    <li>저장 위치는 이용자 본인의 iCloud 계정이며, 개발자는 이 데이터에 접근할 수 없습니다.</li>
+    <li>동기화가 원활하도록 삭제한 기록의 식별자와 삭제 시각이 함께 보관됩니다. 여기에는 기념일의 내용이 포함되지 않습니다.</li>
+    <li>기기에서 기록을 삭제하면 동기화된 다른 기기에서도 삭제됩니다.</li>
+    <li>iCloud에 로그인하지 않았거나 iCloud를 사용할 수 없는 경우, 기록은 기기에만 저장되며 앱의 다른 기능은 그대로 이용할 수 있습니다.</li>
+    <li>iCloud에 보관된 데이터는 <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple의 개인정보 처리방침</a>에 따라 처리됩니다.</li>
+  </ul>
+  <p>Android에서는 iCloud 동기화를 제공하지 않습니다. 다만 기기의 백업 설정에 따라 앱 데이터가 이용자 본인의 Google 계정에 백업될 수 있으며, 이는 운영체제가 제공하는 기능으로 <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google의 개인정보 처리방침</a>이 적용됩니다.</p>
 
-  <h2>4. 알림 권한</h2>
-  <p>본 앱은 기념일 당일에 알림을 보내기 위해 알림 권한을 요청합니다. 모든 알림은 기기 내부에서 생성되는 로컬 알림이며, 알림 내용이 외부로 전송되지 않습니다. 알림 권한은 언제든지 기기 설정에서 해제할 수 있고, 권한을 허용하지 않아도 앱의 다른 기능은 정상적으로 이용할 수 있습니다.</p>
+  <h2>4. 백업 파일 내보내기 및 가져오기</h2>
+  <p>이용자는 설정 화면에서 기록을 JSON 파일로 내보내거나, 보관해 둔 파일을 다시 가져올 수 있습니다. 내보낸 파일은 이용자가 선택한 위치(파일 앱, 메일, 메시지 등)에 저장되며 개발자에게 전송되지 않습니다. 파일에는 기념일 내용이 그대로 담겨 있으므로 공유 시 유의해 주시기 바랍니다. 내보낸 파일의 관리는 이용자의 책임입니다.</p>
 
-  <h2>5. 제3자 제공 및 위탁</h2>
-  <p>본 앱은 이용자의 정보를 수집하지 않으므로 제3자에게 제공하거나 처리를 위탁하는 정보가 없습니다. 광고 네트워크, 분석 도구, 추적 기술을 사용하지 않습니다. 앞서 설명한 클라우드 백업은 이용자의 기기와 이용자 본인의 계정 사이에서 이루어지며, 개발자가 관여하지 않습니다.</p>
+  <h2>5. 알림 권한</h2>
+  <p>본 앱은 이용자가 등록한 기념일이 돌아오는 날, 정해진 시각에 이를 알려드리기 위해 알림 권한을 요청합니다. 모든 알림은 기기 내부에서 생성되는 로컬 알림이며, 알림 전송을 위해 어떠한 정보도 외부로 전송되지 않습니다. 알림 권한은 언제든지 기기 설정이나 앱의 설정 화면에서 해제할 수 있고, 권한을 허용하지 않아도 앱의 다른 기능은 정상적으로 이용할 수 있습니다.</p>
 
-  <h2>6. 아동의 개인정보</h2>
+  <h2>6. 제3자 제공 및 위탁</h2>
+  <p>본 앱은 이용자의 정보를 수집하지 않으므로 제3자에게 제공하거나 처리를 위탁하는 정보가 없습니다. 광고 네트워크, 분석 도구, 추적 기술을 사용하지 않습니다. 앞서 설명한 iCloud 동기화는 이용자의 기기와 이용자 본인의 Apple 계정 사이에서 이루어지며, 개발자가 관여하지 않습니다.</p>
+
+  <h2>7. 아동의 개인정보</h2>
   <p>본 앱은 연령과 무관하게 어떠한 개인정보도 수집하지 않으므로, 만 14세 미만 아동을 포함한 모든 이용자로부터 개인정보를 수집하지 않습니다.</p>
 
-  <h2>7. 이용자의 권리</h2>
-  <p>이용자는 앱 내에서 기록을 직접 수정·삭제할 수 있으며, 앱을 삭제하여 기기에 저장된 전체 데이터를 제거할 수 있습니다. 클라우드에 백업된 데이터는 각 기기 설정의 백업 관리 화면에서 삭제할 수 있습니다. 개발자는 이용자의 데이터에 접근할 수 없어 별도의 열람·정정·삭제 요청을 처리할 수 없습니다.</p>
+  <h2>8. 이용자의 권리</h2>
+  <p>이용자는 앱 내에서 기록을 직접 수정하거나 삭제할 수 있습니다. 삭제한 기록은 iCloud와 동기화된 다른 기기에서도 함께 삭제됩니다. 앱을 삭제하면 기기에 저장된 정보가 제거되며, iCloud에 보관된 데이터는 기기의 iCloud 설정에서 관리하실 수 있습니다. 개발자는 이용자의 데이터에 접근할 수 없어 별도의 열람·정정·삭제 요청을 처리할 수 없습니다.</p>
 
-  <h2>8. 방침의 변경</h2>
+  <h2>9. 방침의 변경</h2>
   <p>본 방침이 변경되는 경우 본 페이지를 통해 변경된 내용과 시행일을 공지합니다. 중요한 변경이 있을 경우 앱 업데이트를 통해 안내할 수 있습니다.</p>
 
-  <h2>9. 문의</h2>
+  <h2>10. 문의</h2>
   <p>본 방침에 대한 문의는 아래 이메일로 연락해 주시기 바랍니다.<br>
   <a href="mailto:thankyou.yoon@gmail.com">thankyou.yoon@gmail.com</a></p>
 </section>
@@ -75,40 +84,49 @@
   <p class="app">365: Every Day Is an Anniversary</p>
   <p class="date">Effective date: September 15, 2026</p>
 
-  <p>This policy explains how 365: Every Day Is an Anniversary (the "App") handles information.</p>
+  <p>This policy explains what information 365: Every Day Is an Anniversary (the "App") handles and how.</p>
 
   <h2>1. Information We Collect</h2>
-  <p>The App does not collect any personal information. There is no account registration or sign-in, and the App never asks for your name, email address, phone number, or location.</p>
+  <p>The App does not collect any personal information. There is no account registration or sign-in, and the App never asks for your name, email address, phone number, contacts, or location. There is no developer-operated server, and the developer cannot view your records.</p>
 
   <h2>2. Information You Enter</h2>
-  <p>Anniversaries you create — including titles, dates, notes, and emoji — are stored on your device. This information is never transmitted to the developer, and there is no developer-operated server. The developer cannot view your records.</p>
-  <p>Deleting the App removes the information stored on your device. If a backup described in section 3 exists, the data may be restored when you reinstall the App.</p>
+  <p>Anniversaries you create — title, month and day, starting year, note, and emoji — are stored on your device. This information is never transmitted to the developer.</p>
 
-  <h2>3. Device Backups and Cloud Storage</h2>
-  <p>Depending on your device settings, App data may be backed up to your own cloud account — Apple iCloud on iOS, or Google account backup on Android. This is a feature of the operating system. The data remains within your own account, and the developer has no access to it.</p>
-  <p>Such data is handled under the respective provider's privacy policy (<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a>, <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a>). You can turn off backups for this App in your device settings.</p>
+  <h2>3. iCloud Sync (iOS)</h2>
+  <p>On iOS, the App stores your anniversaries privately in your own iCloud account so that records merge automatically across devices signed in to the same Apple Account.</p>
+  <ul>
+    <li>The data resides in your own iCloud account, and the developer has no access to it.</li>
+    <li>To keep devices consistent, the identifiers and deletion times of removed records are stored alongside. These contain no anniversary content.</li>
+    <li>Deleting a record on one device removes it from your other synced devices.</li>
+    <li>If you are not signed in to iCloud or iCloud is unavailable, records stay on your device only, and the rest of the App works as usual.</li>
+    <li>Data held in iCloud is handled under <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
+  </ul>
+  <p>iCloud sync is not available on Android. Depending on your device's backup settings, App data may be backed up to your own Google account through the operating system, in which case <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a> applies.</p>
 
-  <h2>4. Notification Permission</h2>
-  <p>The App requests permission to send notifications so it can remind you on the day of an anniversary. All notifications are local notifications generated on your device, and their contents are never transmitted anywhere. You may revoke this permission at any time in your device settings; the rest of the App continues to work without it.</p>
+  <h2>4. Exporting and Importing Backup Files</h2>
+  <p>From the settings screen you can export your records as a JSON file or import a file you saved earlier. Exported files are saved wherever you choose (Files, email, messages, and so on) and are never sent to the developer. Such a file contains your anniversary content in full, so please take care when sharing it. Managing exported files is your responsibility.</p>
 
-  <h2>5. Third Parties</h2>
-  <p>Because the App collects no information, there is nothing to share with or disclose to third parties. The App contains no advertising networks, analytics tools, or tracking technologies. The cloud backup described above takes place between your device and your own account, without any involvement from the developer.</p>
+  <h2>5. Notification Permission</h2>
+  <p>The App requests permission to send a reminder on the days your anniversaries come around, at a time you choose. All notifications are local notifications generated on your device, and no information is transmitted anywhere to deliver them. You may turn notifications off at any time in your device settings or in the App's settings screen; the rest of the App works without them.</p>
 
-  <h2>6. Children's Privacy</h2>
+  <h2>6. Third Parties</h2>
+  <p>Because the App collects no information, there is nothing to share with or disclose to third parties. The App contains no advertising networks, analytics tools, or tracking technologies. The iCloud sync described above takes place between your device and your own Apple Account, without any involvement from the developer.</p>
+
+  <h2>7. Children's Privacy</h2>
   <p>The App collects no personal information from users of any age, including children under 13.</p>
 
-  <h2>7. Your Rights</h2>
-  <p>You can edit or delete individual records within the App, or remove all data stored on your device by deleting the App. Data held in a cloud backup can be removed through your device's backup management settings. The developer has no access to your data and therefore cannot respond to requests to access, correct, or delete it.</p>
+  <h2>8. Your Rights</h2>
+  <p>You can edit or delete records within the App at any time. Deleted records are also removed from your other synced devices. Deleting the App removes the information stored on your device, and data held in iCloud can be managed through your device's iCloud settings. The developer has no access to your data and therefore cannot respond to requests to access, correct, or delete it.</p>
 
-  <h2>8. Changes to This Policy</h2>
+  <h2>9. Changes to This Policy</h2>
   <p>If this policy changes, the updated version and its effective date will be posted on this page. Significant changes may also be announced through an App update.</p>
 
-  <h2>9. Contact</h2>
+  <h2>10. Contact</h2>
   <p>If you have questions about this policy, please contact:<br>
   <a href="mailto:thankyou.yoon@gmail.com">thankyou.yoon@gmail.com</a></p>
 </section>
 
-<footer>© 2026 365: 매일이 기념일</footer>
+<footer>© 2026 woori_project</footer>
 
 </main>
 </body>
